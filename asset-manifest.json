@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.0d6ce4ba.css",
+    "main.css": "/React_Portfolio/static/css/main.c0225038.css",
     "main.js": "/React_Portfolio/static/js/main.3e499838.js",
     "static/media/landingTest1.mp4": "/React_Portfolio/static/media/landingTest1.10baf5c4cc5e6abd73a8.mp4",
     "static/media/car.png": "/React_Portfolio/static/media/car.ed87f175ae4b07f57847.png",
@@ -13,11 +13,11 @@
     "static/media/MiedingerBold.ttf": "/React_Portfolio/static/media/MiedingerBold.ca9b261e5677b7e5ca48.ttf",
     "static/media/MortendExtraBold.ttf": "/React_Portfolio/static/media/MortendExtraBold.8408c50626967067693d.ttf",
     "index.html": "/React_Portfolio/index.html",
-    "main.0d6ce4ba.css.map": "/React_Portfolio/static/css/main.0d6ce4ba.css.map",
+    "main.c0225038.css.map": "/React_Portfolio/static/css/main.c0225038.css.map",
     "main.3e499838.js.map": "/React_Portfolio/static/js/main.3e499838.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d6ce4ba.css",
+    "static/css/main.c0225038.css",
     "static/js/main.3e499838.js"
   ]
 }
