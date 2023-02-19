@@ -1,0 +1,36 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "MiedingerBold";   /*Can be any text*/
+  src: local("MiedingerBold"),
+    url("./fonts/MortendExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MortendExtraBold";   /*Can be any text*/
+  src: local("MortendExtraBold"),
+    url("./fonts/MortendExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FutoSansBold";   /*Can be any text*/
+  src: local("FutoSansBold"),
+    url("./fonts/FutoSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FutoSansMedium";   /*Can be any text*/
+  src: local("FutoSansMedium"),
+    url("./fonts/FutoSansMedium.ttf") format("truetype");
+}
