@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font-face-mied {
+  font-family: "MiedingerBold";
+}
+
+.font-face-mort {
+  font-family: "MortendExtraBold";
+}
+
+.font-face-mortbold {
+  font-family: "FutoSansBold";
+}
+
+.font-face-futomedium {
+  font-family: "FutoSansMedium";
+}
+
+/* .App {
+  text-align: center;
+} */
+
+/* App Styling */
+
+.cardContainer {
+  background-color: #d5ff3f;
+  width: 100%;
+  /* // width: 100%; */
+  position: relative;
+  z-index: -3;
+  top: 850px;
+  min-width: 720px;
+  min-height: 100%;
+  height: 100%;
+}
+
+.subHeader {
+  font-family: MortendExtraBold;
+  width: 100%;
+  background-color: black;
+  color: #d5ff3f;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.starPos {
+  position: relative;
+  top: 10px;
+  margin: 0px 10%;
+}
+
+body {
+  font-family: "FutoSansMedium";
+  background-color: #171717;
+  overflow-x: hidden;
+}
+
+/* Card Component CSS */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 368px;
+  background-color: black;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+/* .cardImage {
+    
+  }; */
+
+.cardText {
+  color: #d5ff3f;
+  width: 90%;
+  padding: 0px 20px 130px 20px;
+  position: relative;
+  margin-top: 90px;
+}
+
+.selectionBox {
+  background-color: #d5ff3f;
+  color: black;
+  position: relative;
+  width: 96%;
+  height: 70px;
+  font-family: MortendExtraBold;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-left: 45px;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  justify-content: space-between;
+  top: 60px;
+}
+
+.clickBox {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  padding: 25px;
+  margin: 0px 10px 30px 0px;
+  position: relative;
+  top: -10px;
+}
+
+.FED {
+  font-size: 40px;
+  padding-bottom: 30px;
+  white-space: nowrap;
+}
+
+.text {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.arrowIcon {
+  position: relative;
+  right: 12.5px;
+  bottom: 11px;
+}
+
+/* Contact Page */
+
+.contactBackground{
+  background-image: url("./assets/Bubble_Background.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.contactTitle {
+  font-family: MortendExtraBold;
+  font-size: 90px;
+  position: relative;
+  top: 100px;
+  margin-left: 20%;
+}
+
+.contactText {
+  color: #d5ff3f;
+}
+
+.usText {
+  color: white;
+  position: relative;
+  top: -100px;
+}
+
+.contactForm {
+  border: #d5ff3f;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 10%;
+  color: #d5ff3f;
+  position: relative;
+  top: 40px;
+}
+
+
+
+input {
+  background-color: rgb(36, 36, 36);
+  border: none;
+  border: #d5ff3f;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+}
+
+.nameEmailInputs{
+  width: 40%;
+  margin-right: 10%;
+}
+
+
+.submitFlex input {
+  background-color: #d5ff3f;
+  height: 30px;
+  width: 25%;
+}
+
+.contactFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  height: 35px;
+  padding: 20px 0px;
+}
+
+.contactName {
+  position: relative;
+  bottom: 25px;
+  left: 50px;
+}
+
+.contactEmail {
+  position: relative;
+  bottom: 25px;
+  left: 50px;
+}
+
+.inputText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  height: 80px;
+}
+
+.inputBox {
+  width: 60%;
+}
+
+.contactSubmit {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+}
+
+.submitFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 420px) {
+  .subHeader {
+    font-family: MortendExtraBold;
+    width: 100%;
+    background-color: black;
+    color: #d5ff3f;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 20px 0;
+    white-space: nowrap;
+  }
+
+  .starPos {
+    position: relative;
+    top: 10px;
+    margin: 0px 6%;
+  }
+
+  /* Cards */
+
+  .cardContainer {
+    background-color: #d5ff3f;
+    width: 420%;
+    position: relative;
+    z-index: -3;
+    top: 850px;
+    /* min-Width: 720px; */
+    min-height: 100%;
+    height: 100%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 2568px;
+    background-color: black;
+    z-index: 1;
+    margin-bottom: 30px;
+  }
+
+  .cardText {
+    color: #d5ff3f;
+    width: 90%;
+    padding: 0px 20px 130px 20px;
+    position: relative;
+    margin-top: 90px;
+    font-size: 60px;
+  }
+
+  .cardImage {
+    width: 100%;
+  }
+
+  .selectionBox {
+    background-color: #d5ff3f;
+    color: black;
+    position: relative;
+    width: 96%;
+    height: 120px;
+    font-family: MortendExtraBold;
+    font-size: 90px;
+    padding-top: 20px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    justify-content: space-between;
+    top: 60px;
+  }
+
+  .FED {
+    font-size: 90px;
+    padding-bottom: 30px;
+    white-space: nowrap;
+  }
+
+  .text {
+    position: relative;
+    padding-bottom: 40px;
+  }
+
+  .clickBox {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    padding: 25px;
+    margin: 0px 10px 30px 0px;
+    position: relative;
+    top: -10px;
+  }
+
+  .arrowIcon {
+    position: relative;
+    right: 3.5px;
+    bottom: 2px;
+    width: 70px;
+  }
+}
